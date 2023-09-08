@@ -1,15 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import { AppInsightsProvider } from './AppInsightsProvider';
+import TestComponent from './TestComponent';
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <p>Home</p>
-      </header>
+      <p>Home</p>
       <AppInsightsProvider>
-        <div>Hello world</div>
+        <TestComponent />
       </AppInsightsProvider>
     </div>
   );
