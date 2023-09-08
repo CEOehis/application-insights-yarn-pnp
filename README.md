@@ -18,3 +18,15 @@ Module not found: Error: Can't resolve '@nevware21/ts-utils' in 'workspace/.yarn
 ERROR in ./.yarn/__virtual__/@microsoft-applicationinsights-react-js-virtual-5e2603ec10/0/cache/@microsoft-applicationinsights-react-js-npm-17.0.0-f9df6f3087-3af1cfa49c.zip/node_modules/@microsoft/applicationinsights-react-js/dist-esm/ReactPlugin.js 13:0-52
 Module not found: Error: Can't resolve '@nevware21/ts-utils' in 'workspace/.yarn/__virtual__/@microsoft-applicationinsights-react-js-virtual-5e2603ec10/0/cache/@microsoft-applicationinsights-react-js-npm-17.0.0-f9df6f3087-3af1cfa49c.zip/node_modules/@microsoft/applicationinsights-react-js/dist-esm'
 ```
+
+## With Node Modules
+
+It works with yarn and `node-modules`.
+
+Checkout the `yarn-node-modules` branch and start the app.
+
+- Run `git checkout yarn-node-modules`
+- Run `yarn` to install dependencies
+- Run `yarn start`
+
+The app should compile successfully.
